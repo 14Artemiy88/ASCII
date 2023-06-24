@@ -28,6 +28,8 @@ options:
  ```
 </details>
 
+[![asciicast](https://asciinema.org/a/6UWnmTUGtxELLjSsHUP5rrjkS.svg)](https://asciinema.org/a/6UWnmTUGtxELLjSsHUP5rrjkS)
+
 <details>
   <summary>Example</summary>
 
@@ -144,3 +146,4 @@ W$8$89W9888$8$$$$@$@@@@$@@@@$88HZ.r  !14:             (.: ( .       ! l:       !
 ▎▎▎▎▎              ▏▎▋▌▌    ▎ ▌      ▏▏     ▏▎▏ ▏   ▏ ▋▎ ▎▏▋  ▎      ▎▍▋▊▋▋▋▌▌▋▋ ▍▌▋▋▋▌▋▎ ▌▍▋▋▋▋▋▋▋▋▋
  ```
 </details>
+
