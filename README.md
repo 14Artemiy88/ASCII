@@ -7,6 +7,28 @@ cv2
 numba
 </details>
 
+<details>
+  <summary>Usage</summary>
+     ```
+        usage: main.py [-h] [-s SCALE] [-ch CHARS] [-c | -b | -p] path
+        
+        positional arguments:
+        path                  Path to file, 0 for webcam video
+        
+        options:
+        -h, --help            show this help message and exit
+        -s SCALE, --scale SCALE
+        Scale, default 70
+        -ch CHARS, --chars CHARS
+        Chars
+        -c, --colored         Colored, default false
+        -b, --bg              Black background with colored image, default false
+        -p, --pixelart        Pixelart style, default false
+     ```
+</details>
+
+<details>
+  <summary>Example</summary>
  ```
 /rrrrr/rrrrr//rr/rrrrrrrrrr((l(l1l(((llllllllllll((((((((((rr/rr//rr/r///rr/rrrrr((rrr(((((rr((r((rr(
 rrrrrrrr(r/rrrrr/r((rr((r(l(1(((((llllllllllllllll((lrr(((((rr/r!:r($lrrrrrrrl!rrr(rrrr((((((((((((l(
@@ -60,3 +82,4 @@ W$8$89W9888$8$$$$@$@@@@$@@@@$88HZ.r  !14:             (.: ( .       ! l:       !
 11:. 41/.148$WW99rrr!  (ZWH/9H.  ..(.                     .   .   !.        :.r(  .(1l1lZ1:ll! .!l/::
 //!!/       .      :/Zll    ! (      !:     !!: :   . 1! !:1  !   .  !(494H1llZZ ((Z1ZlZ/ lrZZ4ZH1444
  ```
+<details>
