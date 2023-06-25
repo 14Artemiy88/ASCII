@@ -30,6 +30,7 @@ options:
 
 
 ## Examples
+### Image
 <details>
   <summary>Image default</summary>
 
@@ -54,4 +55,31 @@ options:
   <summary>Image pixelart style</summary>
 
 ![image_default](screenshots/image_pixel.gif)
+</details>
+
+### Video
+<details>
+  <summary>Video default</summary>
+
+![video_default.gif](screenshots/video_default.gif)
+</details>
+<details>
+  <summary>Video colored</summary>
+
+![video_colored.gif](screenshots/video_colored.gif)
+</details>
+<details>
+  <summary>Video set chars</summary>
+
+![video_set_chars.gif](screenshots/video_set_chars.gif)
+</details>
+<details>
+  <summary>Video set scale</summary>
+
+![video_set_scale.gif](screenshots/video_set_scale.gif)
+</details>
+<details>
+  <summary>Video pixelart style</summary>
+
+![video_pixel.gif](screenshots/video_pixel.gif)
 </details>
