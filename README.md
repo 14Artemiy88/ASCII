@@ -5,7 +5,7 @@ Can display images, video from the file and from the webcam.
 <details>
   <summary>Requirements</summary>
 
-    cv2
+    OpenCV
     numba
 </details>
 

@@ -1,6 +1,6 @@
-from os import system
+from time import time, sleep
 
-from cv2 import transpose, cvtColor, imread, COLOR_BGR2GRAY, COLOR_RGB2BGR, COLOR_BGR2RGB, VideoCapture
+from cv2 import transpose, cvtColor, COLOR_BGR2GRAY, COLOR_BGR2RGB, VideoCapture
 from numba import njit, typed
 
 from Char import Char
@@ -47,10 +47,13 @@ class ColorVideo:
     def draw(self) -> None:
         while True:
             self.gray_image, self.color_image = self.get_image()
+            start = time()
             image = accelerate_conversion(
                 self.color_image, self.gray_image, self.width, self.height,
                 self.char.ascii_coef, self.char.gor_step, self.char.vert_step,
                 self.ascii_chars, self.background
             )
+            end = time() - start
+            if end < .03: sleep(.03 - end)
             print("\n".join(image))
             print(f"\u001b[0;0H")

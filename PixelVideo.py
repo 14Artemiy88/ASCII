@@ -1,3 +1,5 @@
+from time import time, sleep
+
 from cv2 import transpose, cvtColor, COLOR_BGR2RGB, VideoCapture
 from numba import njit
 
@@ -38,10 +40,12 @@ class PixelVideo:
     def draw(self) -> None:
         while True:
             self.image = self.get_image()
+            start = time()
             image = accelerate_conversion(
                 self.image, self.width, self.height,
                 self.char.gor_step, self.char.vert_step
             )
-
+            end = time() - start
+            if end < .03: sleep(.03 - end)
             print("\n".join(image))
             print(f"\u001b[0;0H")
