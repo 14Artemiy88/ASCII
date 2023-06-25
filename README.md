@@ -28,10 +28,30 @@ options:
  ```
 </details>
 
-[![asciicast](https://asciinema.org/a/6UWnmTUGtxELLjSsHUP5rrjkS.svg)](https://asciinema.org/a/6UWnmTUGtxELLjSsHUP5rrjkS)
 
+## Examples
 <details>
-  <summary>Example</summary>
-![ascii_pixel_art](screenshots/image_default.gif "image_default")
-</details>
+  <summary>Image default</summary>
 
+![image_default](screenshots/image_default.gif)
+</details>
+<details>
+  <summary>Image colored</summary>
+
+![image_default](screenshots/image_colored.gif)
+</details>
+<details>
+  <summary>Image colored with background</summary>
+
+![image_default](screenshots/image_colored_with_background.gif)
+</details>
+<details>
+  <summary>Image colored with set scale</summary>
+
+![image_default](screenshots/image_colored_set_scale.gif)
+</details>
+<details>
+  <summary>Image pixelart style</summary>
+
+![image_default](screenshots/image_pixel.gif)
+</details>
