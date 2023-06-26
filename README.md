@@ -99,5 +99,9 @@ options:
 ```bash
 sudo bash install.sh
 ```
-It make symlink on `ascii` folder in this project in `/usr/local/lib/python3.10/dist-packages/` directory,
+It copy `ascii` folder in this project in `/usr/local/lib/python3.10/dist-packages/` directory,
 and starter script in `/usr/local/bin/` with name `ascii`.
+## Uninstalling
+```bash
+sudo bash uninstall.sh
+```
