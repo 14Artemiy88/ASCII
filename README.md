@@ -14,19 +14,22 @@ pip3 install --upgrade numba opencv-python
 <details>
   <summary>Usage</summary>
 
- ```
-usage: main.py [-h] [-s SCALE] [-ch CHARS] [-c | -b | -p] path
+ ```bash
+usage: ascii [-h] [-s SCALE] [-ch CHARS] [-c | -b | -p] path
 
 positional arguments:
-path                        Path to file, 0 for webcam video
+  path                  Path to file, 0 for webcam video
 
 options:
--h, --help                  Show this help message and exit
--s SCALE, --scale SCALE     Scale, default 70
--ch CHARS, --chars CHARS    Chars
--c, --colored               Colored, default false
--b, --bg                    Black background with colored image, default false
--p, --pixelart              Pixelart style, default false
+  -h, --help            show this help message and exit
+  -s SCALE, --scale SCALE
+                        Scale, default 70
+  -ch CHARS, --chars CHARS
+                        Chars
+  -c, --colored         Colored, default false
+  -b, --bg              Black background with colored image, default false
+  -p, --pixelart        Pixelart style, default false
+
  ```
 </details>
 
