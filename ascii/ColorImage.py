@@ -29,6 +29,6 @@ class ColorImage:
                 char_index = char_indices[x, y]
                 char = self.char.get_char(color=char_index)
                 color = tuple(self.color_image[x, y])
-                string += self.background + Utils.fg_rgb(int(color[0]), int(color[1]), int(color[2])) + char
+                string += self.background + Utils.Utils.fg_rgb(int(color[0]), int(color[1]), int(color[2])) + char
             image.append(string)
         print("\n".join(image))

@@ -1,3 +1,4 @@
+from os import system
 from sys import exit
 from argparse import ArgumentParser
 from mimetypes import guess_type
@@ -34,7 +35,7 @@ class ArtConverter:
 
     def run(self):
         # system('tput civis')
-        print("\u001b[2J")
+        # system("clear")
         print(f"\u001b[0;0H")
         self.drawClass.draw()
         # system('tput cnorm')
