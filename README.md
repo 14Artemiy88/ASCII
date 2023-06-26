@@ -72,7 +72,7 @@ options:
 <details>
   <summary>Video colored</summary>
 
-![video_colored.gif](screenshots/video_colored.gif)
+![video_color.gif](screenshots%2Fvideo_color.gif)![video_colored.gif](screenshots/video_colored.gif)
 </details>
 <details>
   <summary>Video set chars</summary>
@@ -82,7 +82,7 @@ options:
 <details>
   <summary>Video set scale</summary>
 
-![video_set_scale.gif](screenshots/video_set_scale.gif)
+![video_colored_set_scale.gif](screenshots%2Fvideo_colored_set_scale.gif)![video_set_scale.gif](screenshots/video_set_scale.gif)
 </details>
 <details>
   <summary>Video pixelart style</summary>
