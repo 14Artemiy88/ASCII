@@ -34,27 +34,32 @@ options:
 <details>
   <summary>Image default</summary>
 
-![image_default](screenshots/image_default.gif)
-</details>
-<details>
-  <summary>Image colored</summary>
-
-![image_default](screenshots/image_colored.gif)
-</details>
-<details>
-  <summary>Image colored with background</summary>
-
-![image_default](screenshots/image_colored_with_background.gif)
-</details>
-<details>
-  <summary>Image colored with set scale</summary>
-
-![image_default](screenshots/image_colored_set_scale.gif)
+![image_default.png](screenshots/image_default.png)
 </details>
 <details>
   <summary>Image pixelart style</summary>
 
-![image_default](screenshots/image_pixel.gif)
+![image_pixel.png](screenshots/image_pixel.png)
+</details>
+<details>
+  <summary>Image colored</summary>
+
+![image_color.png](screenshots/image_color.png)
+</details>
+<details>
+  <summary>Image colored with background</summary>
+
+![image_bg.png](screenshots/image_bg.png)
+</details>
+<details>
+  <summary>Image colored with set chars</summary>
+
+![imaje_set_chars.png](screenshots/imaje_set_chars.png)
+</details>
+<details>
+  <summary>Image colored with set scale</summary>
+
+![image_set_scale.png](screenshots/image_set_scale.png)
 </details>
 
 ### Video
