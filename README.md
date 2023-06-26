@@ -70,6 +70,11 @@ options:
 ![video_default.gif](screenshots/video_default.gif)
 </details>
 <details>
+  <summary>Video pixelart style</summary>
+
+![video_pixel.gif](screenshots/video_pixel.gif)
+</details>
+<details>
   <summary>Video colored</summary>
 
 ![video_colored.gif](screenshots/video_color.gif)
@@ -88,11 +93,6 @@ options:
   <summary>Video set scale</summary>
 
 ![video_colored_set_scale.gif](screenshots/video_colored_set_scale.gif)
-</details>
-<details>
-  <summary>Video pixelart style</summary>
-
-![video_pixel.gif](screenshots/video_pixel.gif)
 </details>
 
 ## Installing
