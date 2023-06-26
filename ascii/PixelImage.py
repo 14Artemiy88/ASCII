@@ -1,5 +1,5 @@
-from Char import Char
-from Utils import Utils
+from ascii import Char
+from ascii import Utils
 from cv2 import transpose, cvtColor, imread, COLOR_RGB2BGR
 
 
@@ -24,6 +24,6 @@ class PixelImage:
             string = ""
             for x in range(0, self.width, self.char.gor_step):
                 color = tuple(self.image[x, y])
-                string += Utils.bg_rgb(int(color[0]), int(color[1]), int(color[2])) + " "
+                string += Utils.Utils.bg_rgb(int(color[0]), int(color[1]), int(color[2])) + " "
             image.append(string)
         print("\n".join(image))

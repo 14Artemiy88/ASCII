@@ -1,5 +1,4 @@
-from Char import Char
-from Utils import Utils
+from ascii import Char, Utils
 from cv2 import transpose, cvtColor, imread, COLOR_BGR2GRAY, COLOR_RGB2BGR
 
 
