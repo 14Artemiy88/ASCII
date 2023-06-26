@@ -35,7 +35,7 @@ class ArtConverter:
 
     def run(self):
         # system('tput civis')
-        # system("clear")
+        system("clear")
         print(f"\u001b[0;0H")
         self.drawClass.draw()
         # system('tput cnorm')
