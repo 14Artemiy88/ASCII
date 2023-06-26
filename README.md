@@ -5,7 +5,7 @@ Can display images, video from the file and from the webcam.
 <details>
   <summary>Requirements</summary>
 
-    Python3 with OpenCV and Numba
+Python3 with OpenCV and Numba
 ```bash
 pip3 install --upgrade numba opencv-python
 ```
