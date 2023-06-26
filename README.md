@@ -89,3 +89,10 @@ options:
 
 ![video_pixel.gif](screenshots/video_pixel.gif)
 </details>
+
+## Installing
+```bash
+sudo bash install.sh
+```
+It make symlink on `ascii` folder in this project in `/usr/local/lib/python3.10/dist-packages/` directory,
+and starter script in `/usr/local/bin/` with name `ascii`.
