@@ -9,4 +9,4 @@ usrBinScriptPath="/usr/local/bin/ascii"
 pythonPath='/usr/local/lib/python3.10/dist-packages/ascii'
 
 rm $usrBinScriptPath
-rm $pythonPath
+rm -r $pythonPath
