@@ -1,6 +1,6 @@
 from cv2 import transpose, cvtColor, imread, COLOR_BGR2GRAY
 
-from ascii import Char
+from ascii.Char import Char
 
 
 class GrayImage:

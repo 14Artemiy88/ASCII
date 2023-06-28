@@ -3,7 +3,7 @@ from time import sleep, time
 from cv2 import transpose, cvtColor, COLOR_BGR2GRAY, VideoCapture
 from numba import njit, typed
 
-from ascii import Char
+from ascii.Char import Char
 
 
 @njit(fastmath=True)

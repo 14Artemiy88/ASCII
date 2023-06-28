@@ -3,7 +3,13 @@ from sys import exit
 from argparse import ArgumentParser
 from mimetypes import guess_type
 
-from ascii import Char, ColorVideo, GrayVideo, ColorImage, GrayImage, PixelImage, PixelVideo, Utils
+from ascii.Char import Char
+from ascii.ColorVideo import ColorVideo
+from ascii.GrayVideo import GrayVideo
+from ascii.ColorImage import ColorImage
+from ascii.GrayImage import GrayImage
+from ascii.PixelImage import PixelImage
+from ascii.PixelVideo import PixelVideo
 
 
 class ArtConverter:
@@ -13,30 +19,30 @@ class ArtConverter:
         background = ""
         args = self.set_args()
         is_colored = args.colored or args.bg
-        if args.bg: background = Utils.Utils.bg_rgb(0, 0, 0)
+        if args.bg: background = Char.bg_rgb(0, 0, 0)
         if args.path != '0': path = args.path
         if path == 0 or guess_type(path)[0].split('/')[0] == "video":
             if is_colored:
-                draw_class = ColorVideo.ColorVideo
+                draw_class = ColorVideo
             elif args.pixelart:
-                draw_class = PixelVideo.PixelVideo
+                draw_class = PixelVideo
             else:
-                draw_class = GrayVideo.GrayVideo
+                draw_class = GrayVideo
         else:
             if is_colored:
-                draw_class = ColorImage.ColorImage
+                draw_class = ColorImage
             elif args.pixelart:
-                draw_class = PixelImage.PixelImage
+                draw_class = PixelImage
             else:
-                draw_class = GrayImage.GrayImage
+                draw_class = GrayImage
 
-        char = Char.Char(scale=args.scale, chars=args.chars)
+        char = Char(scale=args.scale, chars=args.chars)
         self.drawClass = draw_class(path=path, char=char, background=background)
 
     def run(self):
         # system('tput civis')
         system("clear")
-        print(f"\u001b[0;0H")
+        print(f"\u001b[1;1H")
         self.drawClass.draw()
         # system('tput cnorm')
 

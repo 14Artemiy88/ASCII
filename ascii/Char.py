@@ -22,3 +22,9 @@ class Char:
             color = self.ascii_chars_size
 
         return self.ascii_chars[color]
+
+    @staticmethod
+    def bg_rgb(r, g, b): return f"\u001b[48;2;{r};{g};{b}m"
+
+    @staticmethod
+    def fg_rgb(r, g, b): return f"\u001b[38;2;{r};{g};{b}m"

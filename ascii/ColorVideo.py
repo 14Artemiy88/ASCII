@@ -1,9 +1,7 @@
 from time import time, sleep
-
 from cv2 import transpose, cvtColor, COLOR_BGR2GRAY, COLOR_BGR2RGB, VideoCapture
 from numba import njit, typed
-
-from ascii import Char
+from ascii.Char import Char
 
 
 @njit(fastmath=True)
@@ -54,6 +52,6 @@ class ColorVideo:
                 self.ascii_chars, self.background
             )
             end = time() - start
-            if end < .03: sleep(.03 - end)
+            if end < .05: sleep(.05 - end)
             print("\n".join(image))
-            print(f"\u001b[0;0H")
+            print(f"\u001b[1;1H")
