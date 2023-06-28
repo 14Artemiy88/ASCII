@@ -1,4 +1,6 @@
 # ASCII
+![123](https://github.com/14Artemiy88/ASCII/assets/85544451/826c1ae4-b8dd-4c0c-bfae-a3490b6b41ce)
+
 ASCII Graphic in the terminal.
 Can display images, video from the file and from the webcam.
 
