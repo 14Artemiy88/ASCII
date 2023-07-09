@@ -15,12 +15,10 @@ from ascii.PixelVideo import PixelVideo
 class ArtConverter:
 
     def __init__(self):
-        path = 0
-        background = ""
         args = self.set_args()
         is_colored = args.colored or args.bg
-        if args.bg: background = Char.bg_rgb(0, 0, 0)
-        if args.path != '0': path = args.path
+        background = "" if not args.bg else Char.bg_rgb(0, 0, 0)
+        path = 0 if args.path == '0' else args.path
         if path == 0 or guess_type(path)[0].split('/')[0] == "video":
             if is_colored:
                 draw_class = ColorVideo
