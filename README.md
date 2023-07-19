@@ -3,17 +3,14 @@
 ASCII Graphic in the terminal.
 Can display images, video from the file and from the webcam.
 
-<details>
-  <summary>Requirements</summary>
+## Requirements
 
 Python3 with OpenCV and Numba
 ```bash
 pip3 install --upgrade numba opencv-python
 ```
-</details>
 
-<details>
-  <summary>Usage</summary>
+## Usage
 
  ```bash
 usage: ascii [-h] [-s SCALE] [-ch CHARS] [-c | -b | -p] path
@@ -32,8 +29,6 @@ options:
   -p, --pixelart        Pixelart style, default false
 
  ```
-</details>
-
 
 ## Examples
 ### Image
