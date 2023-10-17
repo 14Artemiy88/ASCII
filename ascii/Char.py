@@ -1,5 +1,6 @@
 class Char:
-    ascii_chars = [' ', '.', ':', '!', '/', 'r', '(', 'l', '1', 'Z', '4', 'H', '9', 'W', '8', '$', '@']
+    # ascii_chars = [' ', '.', ':', '!', '/', 'r', '(', 'l', '1', 'Z', '4', 'H', '9', 'W', '8', '$', '@']
+    ascii_chars ="   ...',;:clodxkO0KXNWM"
 
     def __init__(self, scale: float, chars: str | None) -> None:
         if chars: self.ascii_chars = chars
